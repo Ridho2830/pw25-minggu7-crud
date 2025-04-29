@@ -1,0 +1,125 @@
+/* signup.css */
+
+/* Body dan Struktur Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../assets/DVN_2483.jpg') center/cover no-repeat;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+  }
+  
+  /* Header Navigasi */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(51, 51, 51, 0.7);
+    padding: 20px;
+    color: white;
+    backdrop-filter: blur(6px);
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Container Form */
+  .signup-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    color: #ffffff;
+  }
+  
+  /* Header Section dalam Form */
+  .signup-header {
+    text-align: center;
+  }
+  
+  .signup-header h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  
+  .signup-header p {
+    font-size: 16px;
+    color: #cccccc;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="email"],
+  form input[type="tel"],
+  form select {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+  }
+  
+  form input::placeholder {
+    color: #bbbbbb;
+  }
+  
+  form select {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  form button {
+    background-color: rgba(76, 175, 80, 0.8);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: rgba(69, 160, 73, 0.9);
+  }
+  
+  /* Link */
+  form p {
+    text-align: center;
+  }
+  
+  form p a {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  form p a:hover {
+    text-decoration: underline;
+  }
+  

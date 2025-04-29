@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url('../assets/DVN_2483.jpg') center/cover no-repeat;
+    background-color: #000; 
+    margin: 0;
+    padding: 20px;
+    color: #ffffff; 
+  }
+  
+  /* ===== Typography ===== */
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    color: #dddddd;
+    margin-top: 30px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 18px;
+    color: #cccccc;
+  }
+  
+  /* ===== Transparent List Container ===== */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.08); /* semi-transparent */
+    backdrop-filter: blur(6px);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+  }
+  
+  ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  }
+  
+  ul li:last-child {
+    border-bottom: none;
+  }
+  
+  /* ===== Buttons / Links ===== */
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #c40014;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #c82333;
+  }
+  
